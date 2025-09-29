@@ -37,6 +37,7 @@ const heightPercentageToDP = heightPercent => {
   return PixelRatio.roundToNearestPixel(screenHeight * elemHeight / 100);
 };
 
+this might need to be changed
 /**
  * Event listener function that detects orientation change (every time it occurs) and triggers 
  * screen rerendering. It does that, by changing the state of the screen where the function is
